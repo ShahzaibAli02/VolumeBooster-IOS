@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "corona.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

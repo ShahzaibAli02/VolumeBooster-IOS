@@ -1,0 +1,171 @@
+{
+  "identifier" : "B986D761",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "A55ECAA7",
+      "localizations" : [
+
+      ],
+      "name" : "main",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "0.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "5EFB474D",
+          "introductoryOffer" : {
+            "displayPrice" : "0.99",
+            "internalID" : "5C700429",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "weak subscription",
+              "displayName" : "Week subscription with trial",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "vb.week.trial3",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Week subscription with trial",
+          "subscriptionGroupID" : "A55ECAA7",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+            {
+              "displayPrice" : "0.99",
+              "eligibility" : [
+                "new",
+                "expired",
+                "existing"
+              ],
+              "internalID" : "D88B0ADF",
+              "isStackable" : true,
+              "paymentMode" : "free",
+              "referenceName" : "3 days trial",
+              "subscriptionPeriod" : "P3D"
+            }
+          ],
+          "displayPrice" : "3",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "2A4AEB7D",
+          "introductoryOffer" : {
+            "displayPrice" : "0.99",
+            "internalID" : "5B9A6226",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "with trial",
+              "displayName" : "Year subscription",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "vb.year.trial3",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Year subscription with trial",
+          "subscriptionGroupID" : "A55ECAA7",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "0.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "A6BC27FC",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "without trial",
+              "displayName" : "Week subscription",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "vb.week",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Weak subscription",
+          "subscriptionGroupID" : "A55ECAA7",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

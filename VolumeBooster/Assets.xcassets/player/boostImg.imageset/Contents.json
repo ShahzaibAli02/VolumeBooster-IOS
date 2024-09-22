@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "boostImg.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
